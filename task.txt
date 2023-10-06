@@ -1,0 +1,6 @@
+//income... --> monthly.... 20000 , year *12 
+// if user's yearly income.... greater than 2 lacks ---> no tax and he is eligible for 2 wheeler loan
+// if user's yearly income.... greater than 5 lacks ---> 5% tax and after tax deducation .... he is eligible for 4 wheeler loan
+// // if user's yearly income.... greater than 5 lacks ---> 20% tax and after tax deducation .... he is eligible for home  loan
+
+//12 lacks...
