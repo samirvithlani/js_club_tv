@@ -55,6 +55,16 @@ operators
 
 
 
+events: dom --> 
+provide identifiers to tags:
+1)id
+2)class
+3)name
+4)tagname
+5)attribute
+6)selector
+
+
 
 
 
