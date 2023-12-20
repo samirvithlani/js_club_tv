@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./formdemo2.js"></script>
+</head>
+<body>
+    <form onsubmit="handleSubmit(event)">
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="name" onkeyup="checkNameLen()">
+            <span id="nameError"></span>
+        </div>
+        <div>
+            <label for="Contact">contact</label>
+            <input type="text" name="contact" id="contact" onkeyup="checkContact()">
+            <span id="contactError"></span>
+        </div>
+        <div>
+            <input type="submit" value="Submit" id="submit" disabled>
+        </div>
+    </form>
+</body>
+</html>
