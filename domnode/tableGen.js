@@ -45,24 +45,32 @@ function generateTable(){
         var emailTd = document.createElement("td");
         var genderTd = document.createElement("td");
         var addressTd = document.createElement("td");
-        var statusTd = document.createElement("td");
+        var actionTd = document.createElement("td");
 
+        //create button for delete
+        var btn = document.createElement("button")
+        btn.innerHTML = "Delete";
+        btn.className = "btn btn-danger";
 
+        btn.addEventListener('click',()=>{
+            alert("Delete button clicked" + users[i].id);
+        })
+
+        
         IdTd.innerHTML = users[i].id;
         nameTd.innerHTML = users[i].name;
         emailTd.innerHTML = users[i].email;
         genderTd.innerHTML = users[i].gender;
         addressTd.innerHTML = users[i].address;
-        statusTd.innerHTML = users[i].status;
-        //statusTd.style.color = users[i].status ==true ? "green" : "red";
-        statusTd.className = users[i].status == true? "badge badge-success" : "badge badge-danger";
-
+        actionTd.appendChild(btn);
+        
         tr.appendChild(IdTd);
         tr.appendChild(nameTd);
         tr.appendChild(emailTd);
         tr.appendChild(genderTd);
         tr.appendChild(addressTd);
-        tr.appendChild(statusTd);
+        tr.appendChild(actionTd);
+        
 
         tobody.appendChild(tr);
 
