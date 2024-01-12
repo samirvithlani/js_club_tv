@@ -63,10 +63,38 @@ provide identifiers to tags:
 4)tagname
 5)attribute
 6)selector
+---------
 
 
 
 
+promise then async await
+
+-------------------------
+
+sync / blocking         : 
+non sync / non blocking : javascript is non blocking
+
+
+line --> ******************** draw   ->file -->server ---> slow
+##############################  --> draw
+
+
+************************* [draw////]
+count --> print --> undefined
+
+
+sync :::
+************************* [draw////]
+count --> print --> undefined 
+
+PROMISE : -->something that will happen in the future
+
+pending state -->
+if we go for moveii -> promise fulfilled
+if we will no go for movie -> promise rejected
+
+state -> pending , fulfilled , rejected
 
 
 
