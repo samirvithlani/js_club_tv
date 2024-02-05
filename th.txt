@@ -98,3 +98,15 @@ state -> pending , fulfilled , rejected
 
 
 
+promise
+pending
+ --> resolve
+    --> reject
+
+
+---------------- <---> server data.... slow.... 3 sec...
+***************
+
+Promise class ....
+
+
