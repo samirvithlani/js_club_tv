@@ -1,7 +1,7 @@
 function storeDataInLocalStorage() {
 
     localStorage.setItem("name", "Amit")
-    //sessionStorage.setItem("name", "Amit")
+    sessionStorage.setItem("name", "Amit")
 }
 
 function removeData(){
