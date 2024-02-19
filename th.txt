@@ -110,3 +110,26 @@ pending
 Promise class ....
 
 
+
+API -->Application programming interface....
+
+js dows not have backend... we dont have dynmic data
+-->api data ->
+url --> backend --> data-->json...
+
+google map -->google ---> uber,ola,rapido,zomato --> map --->
+
+googlemap api call...
+data --->
+API CALL REQUEST METHODS
+1) GET :- fetch data from server
+2) POST :- send data to server
+3) PUT :- update data on server
+4) DELETE :- delete data from server
+
+FETCCH FUNCTION
+return of fetch function is promise
+
+
+
+
