@@ -131,5 +131,24 @@ FETCCH FUNCTION
 return of fetch function is promise
 
 
+JS -> dynamic con
+db -> files..
+
+3rd party API --> URL --> DATA -->JSON
+
+Google map => google- --> zomato,swigy, --> data -->  url --> map -->
+
+URL -->API-->
+GET, : fetch ....
+POST, : send data to server
+PUT, : update data on server
+DELETE : delete data from server
+
+
+fetch --->function --> promise
+
+
+
+
 
 
